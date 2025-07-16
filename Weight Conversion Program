@@ -1,0 +1,11 @@
+weight = float(input("Please enter your weight: "))
+unit = input("Which unit do you want to convert from (lb/kg): ").lower()
+
+if unit == "lb":
+    weight_in_kg = weight / 2.20462
+    print(f"{weight} lb is equal to {round(weight_in_kg, 2)} kg")
+elif unit == "kg":
+    weight_in_lb = weight * 2.20462
+    print(f"{weight} kg is equal to {round(weight_in_lb, 2)} lb")
+else:
+    print(f"Your unit '{unit}' is not valid. Please enter either 'lb' or 'kg'.")
