@@ -1,5 +1,5 @@
 weight = float(input("Please enter your weight: "))
-unit = input("Which unit do you want to convert from (lb/kg): ").lower()
+unit = input("Which unit do you want to convert from (lb/kg): ")
 
 if unit == "lb":
     weight_in_kg = weight / 2.20462
