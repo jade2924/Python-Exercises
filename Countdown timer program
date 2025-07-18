@@ -1,0 +1,8 @@
+import time
+second= int (input("Please enter your times in second: "))
+
+for i in range (second, 0, -1):
+    print (f"Time left: {i} seconds")
+    time.sleep(1)
+
+print ("Time's up!")
